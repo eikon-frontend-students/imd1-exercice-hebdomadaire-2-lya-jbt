@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background-color: #c8ff43;
+    border: 5px solid black;
+    border-radius: 0 0 150px 0;
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #273208;
+    margin-bottom: 20px;
+}
+
+.image-container {
+    border:0px;
+    border-radius: 5px;
+    border-radius:0 0 150px 0;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
